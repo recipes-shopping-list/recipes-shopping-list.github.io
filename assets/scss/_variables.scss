@@ -14,7 +14,7 @@ $light-alt: #fdfdfd;
 $lightdark7: #797979;
 $lightdark-alt: #cccccc;
 
-$dark: #2a3142;
+$dark: #332372;
 $inverse: #4c5667;
 $pink: #f76397;
 $purple: #7266ba;
@@ -99,7 +99,7 @@ $colors: map-merge(
     $colors
 );
 
-$primary:       $blue !default;
+$primary:       $dark !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -321,7 +321,7 @@ $font-size-sm:                $font-size-base * .875 !default;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
-$font-weight-bold:            600 !default;
+$font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
@@ -356,7 +356,7 @@ $lead-font-weight:            300 !default;
 
 $small-font-size:             80% !default;
 
-$text-muted:                  $gray-600 !default;
+$text-muted:                  $gray-500 !default;
 
 $blockquote-small-color:      $gray-600 !default;
 $blockquote-small-font-size:  $small-font-size !default;

@@ -100,12 +100,12 @@ $display-type-scale-base : minor-third;
   $font-size-display-base : $font-size-h1 !global;
 
   // Add the created font sizes to the elements and classes
-  h1, .h1 { font-size: $font-size-h1; font-weight: $font-weight-bolder; }
-  h2, .h2 { font-size: $font-size-h2; font-weight: $font-weight-bolder; }
-  h3, .h3 { font-size: $font-size-h3; font-weight: $font-weight-bolder; }
-  h4, .h4 { font-size: $font-size-h4; font-weight: $font-weight-bolder; }
-  h5, .h5 { font-size: $font-size-h5; font-weight: $font-weight-bolder; }
-  h6, .h6 { font-size: $font-size-h6; font-weight: $font-weight-bolder; }
+  h1, .h1 { font-size: $font-size-h1; }
+  h2, .h2 { font-size: $font-size-h2; }
+  h3, .h3 { font-size: $font-size-h3; }
+  h4, .h4 { font-size: $font-size-h4; }
+  h5, .h5 { font-size: $font-size-h5; }
+  h6, .h6 { font-size: $font-size-h6; }
 
 }
 
